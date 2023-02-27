@@ -256,7 +256,8 @@ button {
   justify-content: center;
   align-items: center;
 }
-.social-list-item:hover {
+.social-list-item:hover,
+.social-list-item:focus {
   background: var(--active-color);
 }
 
@@ -287,7 +288,8 @@ button {
   padding: 16px 32px;
   fill: #8e8f99;
 }
-.customer-list-item:hover {
+.customer-list-item:hover,
+.customer-list-item:focus {
   border: 1px solid var(--active-color);
   fill: var(--active-color);
 }
@@ -327,7 +329,8 @@ button {
 .bg-footer {
   background: rgba(255, 255, 255, 0.1);
 }
-.bg-footer:hover {
+.bg-footer:hover,
+.bg-footer:focus {
   background: #31d0aa;
 }
 
@@ -375,7 +378,8 @@ button {
   margin-left: 24px;
   margin-top: 48px;
 }
-.card-list-item:hover {
+.card-list-item:hover,
+.card-list-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
